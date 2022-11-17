@@ -249,10 +249,6 @@ main {
 
 
 @media screen and (max-width:1300px) {
-  a {
-    width: 120px;
-    text-align: center;
-  }
 
   #menu {
     display: block;
@@ -514,23 +510,23 @@ main {
     color: var(--background-red);
   }
 
+  .global-footer .footer {
+    display: grid;
+    grid-template-columns: 100px 100px ;
+    gap: 15px;
+    margin-left: 3rem;
+  }
+
   .link-1::after {
     content: '';
     display: none;
   }
 
-  .global-footer .footer {
-    display: grid;
-    margin-left: 3.5rem;
-    grid-template-columns: 100px 100px;
-    gap: 0;
-  }
+
 
   .conteudo-footer h5 {
     font-size: 12px;
   }
-
-
 }
 
 
