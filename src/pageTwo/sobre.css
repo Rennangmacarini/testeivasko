@@ -169,14 +169,17 @@ main {
 
 .conteudo-historia .foto-1 {
   width: 200px;
+  border-radius: 8px;
 }
 
 .conteudo-historia .foto-3 {
   width: 500px;
+  border-radius: 8px;
 }
 
 .conteudo-historia .foto-2 {
   width: 500px;
+  border-radius: 8px;
 }
 
 
