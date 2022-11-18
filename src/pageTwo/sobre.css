@@ -376,7 +376,11 @@ main {
 
 
 @media screen and (max-width:420px) {
-
+  
+  .card-1 {
+    width: 151px;
+ }
+  
   main {
     width: 350px;
   }
