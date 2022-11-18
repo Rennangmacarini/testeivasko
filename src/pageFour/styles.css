@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* PÁGINA DE RECEITAS */
+.global-receitas {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 8rem 5rem 10rem;
+    gap: 5rem;
+  }
+  
+  .receitas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+  
+  main .global-receitas .receitas h1 {
+    font-size: 23px;
+  }
+  
+  .img-receitas {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .global-sabores {
+    background-color: rgb(226, 225, 225);
+    padding: 5rem 0rem 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .global-sabores h2 {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .global-sabores p {
+    font-size: 30px;
+    margin-top: 2rem;
+    color: rgb(0, 0, 0);
+  }
+  
+  .texto-sabores {
+    text-align: center;
+    margin-bottom: 6rem;
+  }
+  
+  .card-sabores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .sabores {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 450px;
+    background-color: #ffffff;
+    overflow: hidden;
+    border-radius: 18px;
+  }
+  
+  .img-sabores {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    transition: 200ms;
+    margin-bottom: 1rem;
+  }
+  
+  .img-sabores:hover {
+    transform: scale(1.1);
+  }
+  
+  .sabores h3 {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    height: 50px;
+  }
+  
+  .sabores a {
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    background-color: #000;
+    border-radius: 18px;
+    font-size: 18px;
+    color: white;
+  }
+  
+  /* FIM DA PÁGINA DE RECEITAS */
+
+
+  @media screen and (max-width: 1300px) {
+
+    main .global-receitas .receitas h1 {
+      font-size: 16px;
+    }
+    
+    .img-receitas {
+      width: 180px;
+      height: 180px;
+    }
+
+    .sabores {
+      width: 220px;
+      height: 430px;
+    }
+    
+    .img-sabores {
+      width: 300px;
+      height: 250px;
+    }
+
+    .sabores h3 {
+      font-size: 12px;
+      font-weight: 600;
+      height: 25px;
+    }
+    
+    
+  }
+
+
+  @media screen and (max-width: 1000px) {
+
+    .global-receitas {
+      display: grid;
+      grid-template-columns: 250px 250px;
+      gap: 2rem;
+    }
+
+    .receitas {
+      gap: 1.5rem;
+    }
+
+    main .global-receitas .receitas h1 {
+      font-size: 14px;
+    }
+
+    .global-sabores h2 {
+      font-size: 35px;
+      color: rgb(0, 0, 0);
+    }
+    
+    .global-sabores p {
+      font-size: 25px;
+      margin-top: 2rem;
+      color: rgb(0, 0, 0);
+    }
+
+    .sabores {
+      width: 180px;
+      height: 400px;
+    }
+    
+    .img-sabores {
+      width: 200px;
+      height: 220px;
+    }
+
+    .sabores h3 {
+      font-size: 12px;
+      font-weight: 600;
+      height: 25px;
+    }
+    
+    
+  }
+
+  @media screen and (max-width: 850px) {
+
+    .global-sabores {
+      gap: 4rem;
+    }
+
+    .card-sabores {
+      display: grid;
+      grid-template-columns: 300px 300px;
+      gap: 5rem;
+    }
+    .sabores {
+      width: 300px;
+      height: 400px;
+    }
+    
+    .img-sabores {
+      width: 400px;
+      height: 220px;
+    }
+
+    .sabores h3 {
+      font-size: 12px;
+      font-weight: 600;
+      height: 25px;
+    }
+    
+    
+  }
+
+
+  @media screen and (max-width: 700px) {
+
+    .card-sabores {
+      display: grid;
+      grid-template-columns: 200px 200px;
+      gap: 5rem;
+    }
+    .sabores {
+      width: 250px;
+      height: 400px;
+    }
+    
+    
+  }
+
+
+  
+  @media screen and (max-width: 600px) {
+
+    .global-sabores {
+      gap: 4rem;
+    }
+
+    .card-sabores {
+      display: grid;
+      grid-template-columns: 200px 200px;
+      gap: 5rem;
+    }
+    .sabores {
+      width: 200px;
+      height: 370px;
+    }
+    
+    .img-sabores {
+      width: 200px;
+      height: 220px;
+    } 
+  }
+
+
+
+
+  @media screen and (max-width: 500px) {
+
+    .global-receitas {
+      display: grid;
+      grid-template-columns: 200px 200px;
+      gap: 2rem;
+    }
+
+
+    .img-receitas {
+      width: 130px;
+      height: 130px;
+    }
+
+    .receitas {
+      gap: 1.5rem;
+    }
+
+    main .global-receitas .receitas h1 {
+      font-size: 12px;
+    }
+
+    .global-sabores h2 {
+      font-size: 28px;
+      color: rgb(0, 0, 0);
+    }
+    
+    .global-sabores p {
+      font-size: 20px;
+      margin-top: 2rem;
+      color: rgb(0, 0, 0);
+    }
+
+    .global-sabores {
+      gap: 4rem;
+    }
+
+    .card-sabores {
+      display: grid;
+      grid-template-columns: 150px 150px;
+      gap: 3rem;
+    }
+    .sabores {
+      width: 150px;
+      height: 300px;
+    }
+    
+    .img-sabores {
+      width: 150px;
+      height: 150px;
+    } 
+
+    .sabores h3 {
+      font-weight: 600;
+      height: 25px;
+    }
+
+    .sabores a {
+      font-size: 14px;
+    }
+
+  }
+    
+    
