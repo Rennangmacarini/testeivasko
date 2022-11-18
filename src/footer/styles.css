@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+:root {
+  --background-black: #000000;
+  --background-red: #af0a0a;
+  --color-white: #ffff;
+  --color-red: #FF0000;
+}
+
 
 
 /* Roadapé  */
