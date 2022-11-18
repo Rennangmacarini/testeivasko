@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    box-sizing: border-box;
+    height: 70px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    transition: 0.6s ease-in-out;
+    background: rgba(6, 6, 6, 0.85);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur(13.5px);
+    border: 1px solid rgba(0, 0, 0, 0.18);
+  }
+  
+  #header img {
+    width: 180px;
+  }
+  
+  #menu {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+  }
+  
+  #menu a {
+    display: block;
+    padding: 0.5rem;
+  }
+  
+  #btn-mobile {
+    display: none;
+  }
+  
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  ul :nth-child(6) {
+    background-color: #ff0000;
+    border-radius: 8px;
+  }
+  
+  .conf-nav {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .conf-nav a {
+    text-decoration: none;
+    color: var(--color-white);
+    border-radius: 8px;
+    position: relative;
+    transition: 00.6s;
+  }
+  
+  .conf-nav a::after {
+    content: '';
+    height: 2px;
+    position: absolute;
+    top: -4px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 0%;
+    background-color: var(--color-red);
+    transition: all 0.5s ease-out;
+  }
+  
+  .conf-nav a:hover::after {
+    width: 50%;
+  }
+
+  @media screen and (max-width:1300px) {
+
+    #menu {
+      display: block;
+      position: absolute;
+      width: 100%;
+      top: 70px;
+      right: 0px;
+      background-color: var(--background-black);
+      transition: 0.6s;
+      z-index: 1000;
+      height: 0px;
+      visibility: hidden;
+      overflow-y: hidden;
+    }
+  
+    #nav.active #menu {
+      height: calc(100vh - 70px);
+      visibility: visible;
+      overflow-y: auto;
+    }
+  
+    #menu a {
+      padding: 1rem 0;
+      margin: 0 1rem;
+      border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    }
+  
+    #btn-mobile {
+      display: flex;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      border: none;
+      background: none;
+      cursor: pointer;
+      gap: 0.5rem;
+      color: white;
+    }
+  
+    #hamburger {
+      border-top: 2px solid;
+      width: 20px;
+      color: white;
+    }
+  
+    #hamburger::after,
+    #hamburger::before {
+      content: '';
+      display: block;
+      width: 20px;
+      height: 2px;
+      background: currentColor;
+      margin-top: 5px;
+      transition: 0.3s;
+      position: relative;
+    }
+  
+    #nav.active #hamburger {
+      border-top-color: transparent;
+    }
+  
+    #nav.active #hamburger::before {
+      transform: rotate(135deg);
+  
+    }
+  
+    #nav.active #hamburger::after {
+      transform: rotate(-135deg);
+      top: -7px;
+    }
+  
+  }
