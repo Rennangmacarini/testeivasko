@@ -645,6 +645,10 @@ h4 {
     grid-template-columns: 150px 150px 150px;
   }
 
+  section .encarte .encarte-1 img {
+    width: 700px;
+  }
+
 }
 
 
@@ -684,6 +688,9 @@ h4 {
     width: 100%;
   }
 
+  section .encarte .encarte-1 img {
+    width: 600px;
+  }
 
 }
 
@@ -709,6 +716,10 @@ h4 {
 
   .background {
     width: 100%;
+  }
+
+  section .encarte .encarte-1 img {
+    width: 500px;
   }
 
 }
@@ -743,6 +754,11 @@ h4 {
   .global-video {
     margin: 6rem 0rem 8rem;
   }
+
+  section .encarte .encarte-1 img {
+    width: 400px;
+  }
+
 
 }
 
@@ -823,6 +839,21 @@ h4 {
   .card-carne {
     margin-top: 5rem;
   }
+
+  section .encarte .encarte-1 img {
+    width: 350px;
+  }
+
+  #one {
+    width: 30px;
+  }
+  
+  #two {
+    width: 30px;
+
+  }
+
+
 }
 
 
