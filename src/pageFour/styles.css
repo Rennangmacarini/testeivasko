@@ -92,7 +92,7 @@
     height: 50px;
   }
   
-  .sabores a {
+  .sabores button {
     text-decoration: none;
     text-align: center;
     margin: auto;
@@ -101,9 +101,47 @@
     border-radius: 18px;
     font-size: 18px;
     color: white;
+    cursor: pointer;
+  }
+
+  .hide{
+    display: none;
+  }
+
+  .icone {
+    margin-left: 95%;
+    width: 20px;
+    cursor: pointer;
   }
   
   /* FIM DA PÁGINA DE RECEITAS */
+
+
+  .global-conteudo {  
+    position: absolute;
+    z-index: 1;
+    width: 800px;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #ffffff;
+  }
+
+  .global-conteudo h1 {
+    font-size: 14px;
+  }
+
+  .listagem-1 {
+    height: 400px;
+  }
+
+  .listagem-1 p {
+    font-size: 12px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
 
 
   @media screen and (max-width: 1300px) {
