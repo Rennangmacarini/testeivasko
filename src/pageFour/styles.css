@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -31,7 +32,7 @@
     border-radius: 50%;
   }
   
-  .global-sabores {
+  .global-sabores{
     background-color: rgb(226, 225, 225);
     padding: 5rem 0rem 5rem;
     display: flex;
@@ -39,12 +40,12 @@
     gap: 5rem;
   }
 
-  .global-sabores h2 {
+  .global-sabores h2{
     font-size: 40px;
     color: rgb(0, 0, 0);
   }
   
-  .global-sabores p {
+  .global-sabores p{
     font-size: 30px;
     margin-top: 2rem;
     color: rgb(0, 0, 0);
@@ -108,7 +109,7 @@
     display: none;
   }
 
-  .icone {
+  .icone, .icone-1, .icone-2, .icone-3, .icone-4, .icone-5, .icone-6, .icone-7, .icone-8, .icone-9 {
     margin-left: 95%;
     width: 20px;
     cursor: pointer;
@@ -117,7 +118,7 @@
   /* FIM DA PÁGINA DE RECEITAS */
 
 
-  .global-conteudo {  
+  .global-conteudo, .teste-1, .teste-2, .teste-3, .teste-4, .teste-5, .teste-6, .teste-7, .teste-8, .teste-9  {  
     position: absolute;
     z-index: 1;
     width: 800px;
@@ -126,8 +127,12 @@
     background-color: #ffffff;
   }
 
-  .global-conteudo h1 {
-    font-size: 14px;
+  .teste-3 {
+    height: 600px;
+  }
+
+  .teste-9{
+    height: 750px;
   }
 
   .listagem-1 {
@@ -170,7 +175,11 @@
       font-weight: 600;
       height: 25px;
     }
+
     
+  .listagem-1 p {
+    font-size: 12px;
+  }
     
   }
 
@@ -196,7 +205,7 @@
       color: rgb(0, 0, 0);
     }
     
-    .global-sabores p {
+    .global-sabores p{
       font-size: 25px;
       margin-top: 2rem;
       color: rgb(0, 0, 0);
@@ -217,13 +226,18 @@
       font-weight: 600;
       height: 25px;
     }
+
+    .listagem-1 p {
+      font-size: 12px;
+    }
+  
     
     
   }
 
   @media screen and (max-width: 850px) {
 
-    .global-sabores {
+    .global-sabores{
       gap: 4rem;
     }
 
@@ -247,8 +261,12 @@
       font-weight: 600;
       height: 25px;
     }
-    
-    
+
+    .global-conteudo, .teste-1, .teste-2, .teste-3, .teste-4, .teste-5, .teste-6, .teste-7, .teste-8, .teste-9  {  
+      width: 650px;
+      padding: 1.5rem;
+      margin-left: 2rem;
+    } 
   }
 
 
@@ -263,15 +281,30 @@
       width: 250px;
       height: 400px;
     }
-    
-    
+
+    .global-conteudo, .teste-1, .teste-2, .teste-3, .teste-4, .teste-5, .teste-6, .teste-7, .teste-8, .teste-9  {  
+      width: 550px;
+      height: 600px;
+    }
+
+    .teste-3{
+      height: 700px;
+    }
+
+    .teste-9{
+      height: 750px;
+    }
+
+    .listagem-1 p {
+      width: 350px;
+    }
   }
 
 
   
   @media screen and (max-width: 600px) {
 
-    .global-sabores {
+    .global-sabores{
       gap: 4rem;
     }
 
@@ -289,9 +322,22 @@
       width: 200px;
       height: 220px;
     } 
+
+    .global-conteudo, .teste-1, .teste-2, .teste-3, .teste-4, .teste-5, .teste-6, .teste-7, .teste-8, .teste-9  {  
+      width: 500px;
+    }
+    .listagem-1 {
+      height: 350px;
+    }
   }
 
 
+  @media screen and (max-width: 550px) {
+    .global-conteudo, .teste-1, .teste-2, .teste-3, .teste-4, .teste-5, .teste-6, .teste-7, .teste-8, .teste-9  {  
+      width: 400px;
+    }
+
+  }
 
 
   @media screen and (max-width: 500px) {
@@ -316,18 +362,18 @@
       font-size: 12px;
     }
 
-    .global-sabores h2 {
+    .global-sabores h2{
       font-size: 28px;
       color: rgb(0, 0, 0);
     }
     
-    .global-sabores p {
+    .global-sabores p{
       font-size: 20px;
       margin-top: 2rem;
       color: rgb(0, 0, 0);
     }
 
-    .global-sabores {
+    .global-sabores{
       gap: 4rem;
     }
 
@@ -355,6 +401,31 @@
       font-size: 14px;
     }
 
+    .global-conteudo, .teste-1, .teste-2, .teste-3, .teste-4, .teste-5, .teste-6, .teste-7, .teste-8, .teste-9  {  
+      width: 350px;
+      padding: 1.5rem;
+      margin-left: 2rem;
+    } 
+
+    .teste-3, .teste-9 {
+      height: 750px;
+    }
+
+    .listagem-1 p {
+      font-size: 12px;
+      width: 300px;
+    }
+
+    .sabores button {
+      font-size: 10px;
+    }
+
   }
+
+  @media screen and (max-width: 400px) {
+    .global-conteudo, .teste-1, .teste-2, .teste-3, .teste-4, .teste-5, .teste-6, .teste-7, .teste-8, .teste-9 {  
+      margin-left: 0.5rem;
+  }
+}
     
     
