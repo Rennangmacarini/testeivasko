@@ -109,7 +109,10 @@
     display: none;
   }
 
-  .icone, .icone-1, .icone-2, .icone-3, .icone-4, .icone-5, .icone-6, .icone-7, .icone-8, .icone-9 {
+  .icone, .icone-1, .icone-2, .icone-3, .icone-4, .icone-5, .icone-6,
+   .icone-7, .icone-8, .icone-9, .icone-10, .icone-11, .icone-12, .icone-13, .icone-14,
+   .icone-15, .icone-16, .icone-17, .icone-18, .icone-19, .icone-20, .icone-21, .icone-22,
+   .icone-23, .icone-24, .icone-25, .icone-26, .icone-27 {
     margin-left: 95%;
     width: 20px;
     cursor: pointer;
@@ -118,7 +121,10 @@
   /* FIM DA PÁGINA DE RECEITAS */
 
 
-  .global-conteudo, .teste-1, .teste-2, .teste-3, .teste-4, .teste-5, .teste-6, .teste-7, .teste-8, .teste-9  {  
+  .global-conteudo, .teste-1, .teste-2, .teste-3, .teste-4, .teste-5, .teste-6,
+   .teste-7, .teste-8, .teste-9, .teste-10, .teste-11, .teste-12, .teste-13, .teste-14,
+   .teste-15, .teste-16, .teste-17, .teste-18, .teste-19, .teste-20, .teste-21,
+   .teste-22, .teste-23, .teste-24, .teste-25, .teste-26, .teste-27 {  
     position: absolute;
     z-index: 1;
     width: 800px;
@@ -127,11 +133,11 @@
     background-color: #ffffff;
   }
 
-  .teste-3 {
+  .teste-3, .teste-21 {
     height: 600px;
   }
 
-  .teste-9{
+  .teste-9, .teste-10, .teste-18, .teste-23, .teste-25{
     height: 750px;
   }
 
@@ -262,7 +268,10 @@
       height: 25px;
     }
 
-    .global-conteudo, .teste-1, .teste-2, .teste-3, .teste-4, .teste-5, .teste-6, .teste-7, .teste-8, .teste-9  {  
+    .global-conteudo, .teste-1, .teste-2, .teste-3, .teste-4, .teste-5, .teste-6,
+     .teste-7, .teste-8, .teste-9, .teste-10, .teste-11, .teste-12, .teste-13, .teste-14,
+     .teste-15, .teste-16, .teste-17, .teste-18, .teste-19, .teste-20, .teste-21, .teste-22,
+     .teste-23, .teste-24, .teste-25, .teste-26, .teste-27  {  
       width: 650px;
       padding: 1.5rem;
       margin-left: 2rem;
@@ -282,16 +291,19 @@
       height: 400px;
     }
 
-    .global-conteudo, .teste-1, .teste-2, .teste-3, .teste-4, .teste-5, .teste-6, .teste-7, .teste-8, .teste-9  {  
+    .global-conteudo, .teste-1, .teste-2, .teste-3, .teste-4, .teste-5,
+     .teste-6, .teste-7, .teste-8, .teste-9, .teste-10, .teste-11, .teste-12, .teste-13, .teste-14,
+     .teste-15, .teste-16, .teste-17, .teste-18, .teste-19, .teste-20, .teste-21, .teste-22,
+     .teste-23, .teste-24, .teste-25, .teste-26, .teste-27  {  
       width: 550px;
       height: 600px;
     }
 
-    .teste-3{
+    .teste-3, .teste-25{
       height: 700px;
     }
 
-    .teste-9{
+    .teste-9,  .teste-23 {
       height: 750px;
     }
 
@@ -323,7 +335,10 @@
       height: 220px;
     } 
 
-    .global-conteudo, .teste-1, .teste-2, .teste-3, .teste-4, .teste-5, .teste-6, .teste-7, .teste-8, .teste-9  {  
+    .global-conteudo, .teste-1, .teste-2, .teste-3, .teste-4, .teste-5, .teste-6,
+     .teste-7, .teste-8, .teste-9, .teste-10, .teste-11, .teste-12, .teste-13, .teste-14,
+     .teste-15, .teste-16, .teste-17, .teste-18, .teste-19, .teste-20, .teste-21, .teste-22,
+     .teste-23, .teste-24, .teste-25, .teste-26, .teste-27{  
       width: 500px;
     }
     .listagem-1 {
@@ -333,7 +348,10 @@
 
 
   @media screen and (max-width: 550px) {
-    .global-conteudo, .teste-1, .teste-2, .teste-3, .teste-4, .teste-5, .teste-6, .teste-7, .teste-8, .teste-9  {  
+    .global-conteudo, .teste-1, .teste-2, .teste-3, .teste-4, .teste-5, .teste-6,
+     .teste-7, .teste-8, .teste-9, .teste-10, .teste-11, .teste-12, .teste-13, .teste-14,
+     .teste-15, .teste-16, .teste-17, .teste-18, .teste-19, .teste-20, .teste-21, .teste-22,
+     .teste-23, .teste-24, .teste-25, .teste-26, .teste-27  {  
       width: 400px;
     }
 
@@ -401,14 +419,21 @@
       font-size: 14px;
     }
 
-    .global-conteudo, .teste-1, .teste-2, .teste-3, .teste-4, .teste-5, .teste-6, .teste-7, .teste-8, .teste-9  {  
+    .global-conteudo, .teste-1, .teste-2, .teste-3, .teste-4, .teste-5, .teste-6,
+     .teste-7, .teste-8, .teste-9, .teste-10, .teste-11, .teste-12, .teste-13, .teste-14,
+     .teste-15, .teste-16, .teste-17, .teste-18, .teste-19, .teste-20, .teste-21, .teste-22, .teste-23,
+     .teste-24, .teste-25, .teste-26, .teste-27  {  
       width: 350px;
       padding: 1.5rem;
       margin-left: 2rem;
     } 
 
-    .teste-3, .teste-9 {
+    .teste-3, .teste-9, .teste-10, .teste-18, .teste-21, .teste-25 {
       height: 750px;
+    }
+
+    .teste-23 {
+      height: 800px;
     }
 
     .listagem-1 p {
@@ -423,7 +448,10 @@
   }
 
   @media screen and (max-width: 400px) {
-    .global-conteudo, .teste-1, .teste-2, .teste-3, .teste-4, .teste-5, .teste-6, .teste-7, .teste-8, .teste-9 {  
+    .global-conteudo, .teste-1, .teste-2, .teste-3, .teste-4, .teste-5, .teste-6,
+     .teste-7, .teste-8, .teste-9, .teste-10, .teste-11, .teste-12, .teste-13, .teste-14,
+     .teste-15, .teste-16, .teste-17, .teste-18, .teste-19, .teste-20, .teste-21, .teste-22,
+     .teste-23, .teste-24, .teste-25, .teste-26, .teste-27 {  
       margin-left: 0.5rem;
   }
 }
